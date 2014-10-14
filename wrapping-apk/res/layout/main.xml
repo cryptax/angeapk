@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="This is Anakin Skywalker"
+    />
+<ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:id="@+id/image"
+/>
+<TextView
+  android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/txtView"
+    />
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:id="@+id/goBtn"
+    android:text="Will Anakin turn to the Dark Side? Click the button to find out!"
+    />
+</LinearLayout>
+
